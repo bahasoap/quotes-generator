@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Quote generator</title>
+</head>
+
+<body>
+
+
+
+    <!-- login form started -->
+
+    <div class="login_form_overlay" >
+        <div class="login_container">
+            <div class="login_form">
+                <div class="login_title">
+                    <h3>
+                        Login
+                    </h3>
+                </div>
+                <div class="login_fields_container">
+                    <div class="email_field">
+                        <div class="email_label">
+                            <label for="email">
+                                email
+                            </label>
+                        </div>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="pass_field">
+                        <div class="pass_label">
+                            <label for="password">
+                                password
+                            </label>
+                        </div>
+                        <input type="password" name="password" id="pass">
+                    </div>
+                    <div class="submit_field">
+                        <input type="submit" value="submit" class="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- login form ended -->
+    <div class="social_share_container">
+        <div class="social_icons">
+            <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+        <div >
+            <p class="close_btns">close</p>
+        </div>
+    </div>
+    <!-- wrapper -->
+    <div class="wrapper">
+
+        <div class="container">
+            <div class="quotes_wrapper_heading">
+                Quotes <span>Cover</span>
+            </div>
+            <div class="sharing_btn_container">
+                <button class="share_btn">
+                    share
+                </button>
+            </div>
+            <div class="circle_quote_container">
+                <div class="quote_overlay_image">
+                    <!-- https://random.imagecdn.app/500/150 -->
+                    <!-- https://bit.ly/3sBDnXt -->
+                    <img class = "overlay_image" src="https://bit.ly/3sBDnXt " alt="">
+                </div>
+               <div class="quote_text_container">
+                <h2 class="quote_text">
+                    Great minds discuss ideas; average minds discuss events; small minds discuss people
+                </h2>
+            </div>
+            <div class="quote_loading_animation">
+                <span class="loader">
+                    
+                </span>
+                <p class="loader_text">
+                    Loading Quote
+                </p>
+            </div>
+            </div>
+            <div class="action_btns_container">
+                <button class="generate_quote">
+                    Quote
+                  
+                </button>
+                <button class="generate_design">
+                    Design
+                    
+                </button>
+                <button class="generate_image">
+                    Image
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <p class="colorsss">
+
+    </p> -->
+
+
+    <!-- wrapper ended -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <script src="colors.js"></script>
+</body>
+
+</html>
